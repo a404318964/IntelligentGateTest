@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_device"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:id="@+id/iv_refresh"
+        android:layout_width="175px"
+        android:layout_height="175px"
+        android:src="@drawable/ic_refresh_device"
+        app:layout_auto_basewidth="width"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="32px"
+        android:layout_marginRight="40px"/>
+
+</FrameLayout>
